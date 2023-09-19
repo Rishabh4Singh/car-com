@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap" />
+    <link rel="stylesheet" href="./global.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <!-- NAVIGATION STARTS -->
+    <section class="navbar navbar-expand-lg customNav">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white navlogo" href="/index.html">
+                <img src="/Images/Logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                logoIpsm
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class=""><svg xmlns="http://www.w3.org/2000/svg" width="25" height="19" viewBox="0 0 25 19"
+                        fill="none">
+                        <g id="Group">
+                            <g id="Group_2">
+                                <path id="Vector" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M23.6429 0H7.9C7.15047 0 6.54285 0.607614 6.54285 1.35714C6.54285 2.10667 7.15047 2.71429 7.9 2.71429H23.6429C24.3924 2.71429 25 2.10667 25 1.35714C25 0.607614 24.3924 0 23.6429 0ZM23.6429 16.2857H11.1571C10.4076 16.2857 9.8 16.8933 9.8 17.6429C9.8 18.3924 10.4076 19 11.1571 19H23.6429C24.3924 19 25 18.3924 25 17.6429C25 16.8933 24.3924 16.2857 23.6429 16.2857ZM23.6429 8.14286H1.92857C1.17904 8.14286 0.571424 8.75047 0.571424 9.5C0.571424 10.2495 1.17904 10.8571 1.92857 10.8571H23.6429C24.3924 10.8571 25 10.2495 25 9.5C25 8.75047 24.3924 8.14286 23.6429 8.14286Z"
+                                    fill="white" />
+                            </g>
+                        </g>
+                    </svg></span>
+            </button>
+            <div class="collapse navbar-collapse custom-navcollasp" id="navbarTogglerDemo02">
+                <ul class="navul d-flex justify-content-center align-items-baseline me-auto">
+                    <li class="nav-item">
+                        <a class="nav_text nav-link active text-white" aria-current="page" href="#"><span
+                                class="me-2"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                    viewBox="0 0 20 20" fill="none">
+                                    <path id="Vector"
+                                        d="M9.1579 0.526316V8.61053C9.1579 8.90526 8.92632 9.13684 8.63158 9.13684H0.526316C0.231579 9.13684 0 8.90526 0 8.61053V0.947368C0 0.421053 0.421053 0 0.947368 0H8.63158C8.92632 0 9.1579 0.231579 9.1579 0.526316ZM19.0526 0H11.3684C11.0737 0 10.8421 0.231579 10.8421 0.526316V8.61053C10.8421 8.90526 11.0737 9.13684 11.3684 9.13684H19.4737C19.7684 9.13684 20 8.90526 20 8.61053V0.947368C20 0.421053 19.5789 0 19.0526 0ZM8.63158 10.8211H0.526316C0.231579 10.8211 0 11.0526 0 11.3474V19.0526C0 19.5789 0.421053 20 0.947368 20H8.63158C8.92632 20 9.1579 19.7684 9.1579 19.4737V11.3474C9.1579 11.0526 8.92632 10.8211 8.63158 10.8211ZM19.4737 10.8211H11.3684C11.0737 10.8211 10.8421 11.0526 10.8421 11.3474V19.4737C10.8421 19.7684 11.0737 20 11.3684 20H19.0526C19.5789 20 20 19.5789 20 19.0526V11.3474C20 11.0526 19.7684 10.8211 19.4737 10.8211Z"
+                                        fill="white" />
+                                </svg></span>All Category</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav_text text-white" href="/collection.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav_text text-white" aria-disabled="true">Blogs</a>
+                    </li>
+                </ul>
+                <form class="d-md-flex d-none" role="search">
+                    <input class="form-control me-2 Navsearch" type="search" placeholder="Search" aria-label="Search">
+                </form>
+                <span class="login d-md-inline d-none"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="20"
+                        viewBox="0 0 22 20" fill="none">
+                        <g id="Group">
+                            <path id="Vector"
+                                d="M9.81242 0.0552227C7.03567 0.413512 4.76651 2.65282 4.40822 5.45942C3.90064 9.52003 7.33425 12.9835 11.4247 12.4461C14.2015 12.0878 16.4706 9.84847 16.8289 7.04187C17.3365 2.98125 13.9029 -0.482211 9.81242 0.0552227Z"
+                                fill="white" />
+                            <path id="Vector_2"
+                                d="M0.76559 20H20.4715C21.0388 20 21.3672 19.4924 21.2478 18.955C20.5611 16.0588 18.6502 13.5209 16.0526 11.9982C15.7242 11.819 15.336 11.8489 15.0673 12.0579C13.8432 12.9835 12.3204 13.5508 10.6484 13.5508C8.97639 13.5508 7.45366 12.9835 6.2295 12.0579C5.93093 11.8489 5.54278 11.819 5.24421 11.9982C2.67647 13.5209 0.765591 16.0887 0.0490118 18.955C-0.130133 19.4924 0.198299 20 0.76559 20Z"
+                                fill="white" />
+                        </g>
+                    </svg>
+                </span>
+                <div class="loginbtndiv">
+                    <button class="mobnavbtn signin">Sign Up</button>
+                    <button class="mobnavbtn loginmob">Log In</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- NAVIGATION ENDS -->
+
+    <!-- BANNER STARTS -->
+    <section
+        class="banner-section position-relative d-flex align-items-center justify-content-center text-white text-center">
+        <div class="banner-img-div">
+            <img src="/Images/Banner.png" alt="top-banner" sizes="100vw" class="banner-img desktop-banner">
+            <img src="/Images/Mobile banner.png" alt="top-banner" sizes="100vw" class="banner-img mobile-banner">
+        </div>
+        <div class="banner-text-div position-absolute">
+            <h2 class="banner-heading">Upgrade your ride, elevate your journey</h2>
+            <p class="banner-description">Discover a world of automotive accessories where each selection improves your
+                driving, Compare and select the ideal extras to elevate your experience.</p>
+            <div class="banner-span-div">
+                <span class="banner-category-span">By Category</span>
+                <span class="banner-make-span">By Make</span>
+            </div>
+            <div class="banner-search-div d-flex align-items-center justify-content-md-between">
+                <select name="banner-texts" id="banner-texts" class="banner-text-span">
+                    <option value="1">Category</option>
+                    <option value="2">DEF</option>
+                    <option value="3">GHI</option>
+                </select>
+                <select name="banner-texts" id="banner-texts" class="banner-text-span">
+                    <option value="1">Make</option>
+                    <option value="2">DEF</option>
+                    <option value="3">GHI</option>
+                </select>
+                <select name="banner-texts" id="banner-texts" class="banner-text-span">
+                    <option value="1">Model</option>
+                    <option value="2">DEF</option>
+                    <option value="3">GHI</option>
+                </select>
+                <div class="mobile-d-none">
+                    <input class="bannner-search-input" type="search" placeholder="Search" aria-label="Search">
+                </div>
+            </div>
+            <div class="d-md-none">
+                <input class="bannner-search-input" type="search" placeholder="Search" aria-label="Search">
+            </div>
+        </div>
+    </section>
+    <!-- BANNER ENDS -->
+
+    <!-- TOP ACCESSORIES STARTS -->
+    <section class="top-accessories-div">
+        <div class="ta-top-bar d-flex">
+            <h2 class="ta-heading">Top Accessories</h2>
+            <div class="top-acc-mob-banner d-md-none">
+                <img src="/Images/mobile top access banner.png" alt="" class="w-100 h-auto">
+            </div>
+            <div class="ta-span-div ms-auto">
+                <span class="px-md-1 px-1 ta-left-border ta-top-span">All</span>
+                <span class="px-md-1 px-1 ta-left-border ta-top-span">Speakers</span>
+                <span class="px-md-1 px-1 ta-left-border ta-top-span">Interior</span>
+                <span class="ps-md-1 ps-1 ta-top-span">Headlamps</span>
+            </div>
+        </div>
+        <div class="ta-grid d-md-grid">
+            <div class="ta-grid-card-whole mobile-d-none">
+                <img src="/Images/top accessories grid image.png" alt="top accessories card" class="ta-grid-red-card">
+            </div>
+            <div class="ta-grid-card ta-grid-card-whole">
+                <div class="ta-product-img-div">
+                    <img src="/Images/top accessories grid product.png" alt="top accessories grid product"
+                        class="ta-grid-img">
+                </div>
+                <div>
+                    <h3 class="ta-grid-card-heading">Roof racks for luggage</h3>
+                    <ul class="ta-grid-ul">
+                        <li>Material : Hard plastic</li>
+                        <li>Total weight : 18 kg</li>
+                        <li>Luggage Capacity : 20 ltr</li>
+                        <li>Dimensions (m) : 6l x 4b x 6h</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ta-grid-card ta-grid-card-whole">
+                <div class="ta-product-img-div">
+                    <img src="/Images/top accessories grid product.png" alt="top accessories grid product"
+                        class="ta-grid-img">
+                </div>
+                <div>
+                    <h3 class="ta-grid-card-heading">Roof racks for luggage</h3>
+                    <ul class="ta-grid-ul">
+                        <li>Material : Hard plastic</li>
+                        <li>Total weight : 18 kg</li>
+                        <li>Luggage Capacity : 20 ltr</li>
+                        <li>Dimensions (m) : 6l x 4b x 6h</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ta-grid-card ta-grid-card-whole">
+                <div class="ta-product-img-div">
+                    <img src="/Images/top accessories grid product.png" alt="top accessories grid product"
+                        class="ta-grid-img">
+                </div>
+                <div>
+                    <h3 class="ta-grid-card-heading">Roof racks for luggage</h3>
+                    <ul class="ta-grid-ul">
+                        <li>Material : Hard plastic</li>
+                        <li>Total weight : 18 kg</li>
+                        <li>Luggage Capacity : 20 ltr</li>
+                        <li>Dimensions (m) : 6l x 4b x 6h</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ta-grid-card ta-grid-card-whole">
+                <div class="ta-product-img-div">
+                    <img src="/Images/top accessories grid product.png" alt="top accessories grid product"
+                        class="ta-grid-img">
+                </div>
+                <div>
+                    <h3 class="ta-grid-card-heading">Roof racks for luggage</h3>
+                    <ul class="ta-grid-ul">
+                        <li>Material : Hard plastic</li>
+                        <li>Total weight : 18 kg</li>
+                        <li>Luggage Capacity : 20 ltr</li>
+                        <li>Dimensions (m) : 6l x 4b x 6h</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ta-grid-card ta-grid-card-whole">
+                <div class="ta-product-img-div">
+                    <img src="/Images/top accessories grid product.png" alt="top accessories grid product"
+                        class="ta-grid-img">
+                </div>
+                <div>
+                    <h3 class="ta-grid-card-heading">Roof racks for luggage</h3>
+                    <ul class="ta-grid-ul">
+                        <li>Material : Hard plastic</li>
+                        <li>Total weight : 18 kg</li>
+                        <li>Luggage Capacity : 20 ltr</li>
+                        <li>Dimensions (m) : 6l x 4b x 6h</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ta-grid-card  ta-grid-card-whole">
+                <div class="ta-product-img-div">
+                    <img src="/Images/top accessories grid product.png" alt="top accessories grid product"
+                        class="ta-grid-img">
+                </div>
+                <div>
+                    <h3 class="ta-grid-card-heading">Roof racks for luggage</h3>
+                    <ul class="ta-grid-ul">
+                        <li>Material : Hard plastic</li>
+                        <li>Total weight : 18 kg</li>
+                        <li>Luggage Capacity : 20 ltr</li>
+                        <li>Dimensions (m) : 6l x 4b x 6h</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ta-grid-card ta-grid-card-whole">
+                <div class="ta-product-img-div">
+                    <img src="/Images/top accessories grid product.png" alt="top accessories grid product"
+                        class="ta-grid-img">
+                </div>
+                <div>
+                    <h3 class="ta-grid-card-heading">Roof racks for luggage</h3>
+                    <ul class="ta-grid-ul">
+                        <li>Material : Hard plastic</li>
+                        <li>Total weight : 18 kg</li>
+                        <li>Luggage Capacity : 20 ltr</li>
+                        <li>Dimensions (m) : 6l x 4b x 6h</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- TOP ACCESSORIES ENDS -->
+
+    <!-- Trending comparison starts -->
+    <section class="tc-main">
+        <h2 class="tc-heading">Trending comparison</h2>
+        <div class="bk-slider">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slide-holder">
+                            <div class="slier-img-div">
+                                <div class="slider-img">
+                                    <img src="/Images/tc-seat-img.png" alt="" class="h-auto w-100">
+                                </div>
+                                <svg width="14" height="14" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"
+                                    aria-hidden="true" class="iconify iconify--emojione-monotone">
+                                    <path
+                                        d="M52 2H12C6.477 2 2 6.477 2 12v40c0 5.523 4.477 10 10 10h40c5.523 0 10-4.477 10-10V12c0-5.523-4.477-10-10-10M23.23 44.365h-4.877L10 19.72h5.514l5.363 18.71 5.412-18.71h5.363L23.23 44.365m28.153-1.595C49.639 44.257 47.174 45 43.988 45c-3.252 0-5.809-.732-7.672-2.197-1.863-1.467-2.795-3.481-2.795-6.045h4.928c.158 1.125.473 1.967.939 2.524.855 1.016 2.322 1.521 4.398 1.521 1.242 0 2.252-.134 3.029-.401 1.471-.512 2.207-1.465 2.207-2.859 0-.813-.361-1.443-1.082-1.889-.721-.436-1.865-.82-3.43-1.154l-2.674-.584c-2.629-.581-4.434-1.211-5.418-1.891-1.664-1.136-2.496-2.915-2.496-5.334 0-2.207.813-4.04 2.441-5.501 1.629-1.46 4.021-2.19 7.178-2.19 2.635 0 4.883.688 6.742 2.065 1.861 1.376 2.836 3.375 2.928 5.994H48.25c-.092-1.482-.756-2.536-1.994-3.16-.824-.412-1.85-.62-3.074-.62-1.363 0-2.451.269-3.266.804-.813.535-1.219 1.283-1.219 2.24 0 .881.4 1.539 1.203 1.975.516.289 1.609.629 3.281 1.019l4.336 1.021c1.898.446 3.324 1.042 4.271 1.789C53.264 33.285 54 34.962 54 37.159c0 2.252-.871 4.121-2.617 5.611" />
+                                </svg>
+                                <div class="slider-img">
+                                    <img src="/Images/tc-seat-img.png" alt="" class="h-auto w-100">
+                                </div>
+                            </div>
+                            <div class="slier-text-div">
+                                <p class="slier-text">Graco 4Ever DLX</p>
+                                <p class="slier-text">VS</p>
+                                <p class="slier-text">Britax Boulevard Clicktight ARB</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-holder">
+                            <div class="slier-img-div">
+                                <div class="slider-img">
+                                    <img src="/Images/tc-seat-img.png" alt="" class="h-auto w-100">
+                                </div>
+                                <svg width="14" height="14" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"
+                                    aria-hidden="true" class="iconify iconify--emojione-monotone">
+                                    <path
+                                        d="M52 2H12C6.477 2 2 6.477 2 12v40c0 5.523 4.477 10 10 10h40c5.523 0 10-4.477 10-10V12c0-5.523-4.477-10-10-10M23.23 44.365h-4.877L10 19.72h5.514l5.363 18.71 5.412-18.71h5.363L23.23 44.365m28.153-1.595C49.639 44.257 47.174 45 43.988 45c-3.252 0-5.809-.732-7.672-2.197-1.863-1.467-2.795-3.481-2.795-6.045h4.928c.158 1.125.473 1.967.939 2.524.855 1.016 2.322 1.521 4.398 1.521 1.242 0 2.252-.134 3.029-.401 1.471-.512 2.207-1.465 2.207-2.859 0-.813-.361-1.443-1.082-1.889-.721-.436-1.865-.82-3.43-1.154l-2.674-.584c-2.629-.581-4.434-1.211-5.418-1.891-1.664-1.136-2.496-2.915-2.496-5.334 0-2.207.813-4.04 2.441-5.501 1.629-1.46 4.021-2.19 7.178-2.19 2.635 0 4.883.688 6.742 2.065 1.861 1.376 2.836 3.375 2.928 5.994H48.25c-.092-1.482-.756-2.536-1.994-3.16-.824-.412-1.85-.62-3.074-.62-1.363 0-2.451.269-3.266.804-.813.535-1.219 1.283-1.219 2.24 0 .881.4 1.539 1.203 1.975.516.289 1.609.629 3.281 1.019l4.336 1.021c1.898.446 3.324 1.042 4.271 1.789C53.264 33.285 54 34.962 54 37.159c0 2.252-.871 4.121-2.617 5.611" />
+                                </svg>
+                                <div class="slider-img">
+                                    <img src="/Images/tc-seat-img.png" alt="" class="h-auto w-100">
+                                </div>
+                            </div>
+                            <div class="slier-text-div">
+                                <p class="slier-text">Graco 4Ever DLX</p>
+                                <p class="slier-text">VS</p>
+                                <p class="slier-text">Britax Boulevard Clicktight ARB</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-holder">
+                            <div class="slier-img-div">
+                                <div class="slider-img">
+                                    <img src="/Images/tc-seat-img.png" alt="" class="h-auto w-100">
+                                </div>
+                                <svg width="14" height="14" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"
+                                    aria-hidden="true" class="iconify iconify--emojione-monotone">
+                                    <path
+                                        d="M52 2H12C6.477 2 2 6.477 2 12v40c0 5.523 4.477 10 10 10h40c5.523 0 10-4.477 10-10V12c0-5.523-4.477-10-10-10M23.23 44.365h-4.877L10 19.72h5.514l5.363 18.71 5.412-18.71h5.363L23.23 44.365m28.153-1.595C49.639 44.257 47.174 45 43.988 45c-3.252 0-5.809-.732-7.672-2.197-1.863-1.467-2.795-3.481-2.795-6.045h4.928c.158 1.125.473 1.967.939 2.524.855 1.016 2.322 1.521 4.398 1.521 1.242 0 2.252-.134 3.029-.401 1.471-.512 2.207-1.465 2.207-2.859 0-.813-.361-1.443-1.082-1.889-.721-.436-1.865-.82-3.43-1.154l-2.674-.584c-2.629-.581-4.434-1.211-5.418-1.891-1.664-1.136-2.496-2.915-2.496-5.334 0-2.207.813-4.04 2.441-5.501 1.629-1.46 4.021-2.19 7.178-2.19 2.635 0 4.883.688 6.742 2.065 1.861 1.376 2.836 3.375 2.928 5.994H48.25c-.092-1.482-.756-2.536-1.994-3.16-.824-.412-1.85-.62-3.074-.62-1.363 0-2.451.269-3.266.804-.813.535-1.219 1.283-1.219 2.24 0 .881.4 1.539 1.203 1.975.516.289 1.609.629 3.281 1.019l4.336 1.021c1.898.446 3.324 1.042 4.271 1.789C53.264 33.285 54 34.962 54 37.159c0 2.252-.871 4.121-2.617 5.611" />
+                                </svg>
+                                <div class="slider-img">
+                                    <img src="/Images/tc-seat-img.png" alt="" class="h-auto w-100">
+                                </div>
+                            </div>
+                            <div class="slier-text-div">
+                                <p class="slier-text">Graco 4Ever DLX</p>
+                                <p class="slier-text">VS</p>
+                                <p class="slier-text">Britax Boulevard Clicktight ARB</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-holder">
+                            <div class="slier-img-div">
+                                <div class="slider-img">
+                                    <img src="/Images/tc-seat-img.png" alt="" class="h-auto w-100">
+                                </div>
+                                <svg width="14" height="14" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"
+                                    aria-hidden="true" class="iconify iconify--emojione-monotone">
+                                    <path
+                                        d="M52 2H12C6.477 2 2 6.477 2 12v40c0 5.523 4.477 10 10 10h40c5.523 0 10-4.477 10-10V12c0-5.523-4.477-10-10-10M23.23 44.365h-4.877L10 19.72h5.514l5.363 18.71 5.412-18.71h5.363L23.23 44.365m28.153-1.595C49.639 44.257 47.174 45 43.988 45c-3.252 0-5.809-.732-7.672-2.197-1.863-1.467-2.795-3.481-2.795-6.045h4.928c.158 1.125.473 1.967.939 2.524.855 1.016 2.322 1.521 4.398 1.521 1.242 0 2.252-.134 3.029-.401 1.471-.512 2.207-1.465 2.207-2.859 0-.813-.361-1.443-1.082-1.889-.721-.436-1.865-.82-3.43-1.154l-2.674-.584c-2.629-.581-4.434-1.211-5.418-1.891-1.664-1.136-2.496-2.915-2.496-5.334 0-2.207.813-4.04 2.441-5.501 1.629-1.46 4.021-2.19 7.178-2.19 2.635 0 4.883.688 6.742 2.065 1.861 1.376 2.836 3.375 2.928 5.994H48.25c-.092-1.482-.756-2.536-1.994-3.16-.824-.412-1.85-.62-3.074-.62-1.363 0-2.451.269-3.266.804-.813.535-1.219 1.283-1.219 2.24 0 .881.4 1.539 1.203 1.975.516.289 1.609.629 3.281 1.019l4.336 1.021c1.898.446 3.324 1.042 4.271 1.789C53.264 33.285 54 34.962 54 37.159c0 2.252-.871 4.121-2.617 5.611" />
+                                </svg>
+                                <div class="slider-img">
+                                    <img src="/Images/tc-seat-img.png" alt="" class="h-auto w-100">
+                                </div>
+                            </div>
+                            <div class="slier-text-div">
+                                <p class="slier-text">Graco 4Ever DLX</p>
+                                <p class="slier-text">VS</p>
+                                <p class="slier-text">Britax Boulevard Clicktight ARB</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-holder">
+                            <div class="slier-img-div">
+                                <div class="slider-img">
+                                    <img src="/Images/tc-seat-img.png" alt="" class="h-auto w-100">
+                                </div>
+                                <svg width="14" height="14" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"
+                                    aria-hidden="true" class="iconify iconify--emojione-monotone">
+                                    <path
+                                        d="M52 2H12C6.477 2 2 6.477 2 12v40c0 5.523 4.477 10 10 10h40c5.523 0 10-4.477 10-10V12c0-5.523-4.477-10-10-10M23.23 44.365h-4.877L10 19.72h5.514l5.363 18.71 5.412-18.71h5.363L23.23 44.365m28.153-1.595C49.639 44.257 47.174 45 43.988 45c-3.252 0-5.809-.732-7.672-2.197-1.863-1.467-2.795-3.481-2.795-6.045h4.928c.158 1.125.473 1.967.939 2.524.855 1.016 2.322 1.521 4.398 1.521 1.242 0 2.252-.134 3.029-.401 1.471-.512 2.207-1.465 2.207-2.859 0-.813-.361-1.443-1.082-1.889-.721-.436-1.865-.82-3.43-1.154l-2.674-.584c-2.629-.581-4.434-1.211-5.418-1.891-1.664-1.136-2.496-2.915-2.496-5.334 0-2.207.813-4.04 2.441-5.501 1.629-1.46 4.021-2.19 7.178-2.19 2.635 0 4.883.688 6.742 2.065 1.861 1.376 2.836 3.375 2.928 5.994H48.25c-.092-1.482-.756-2.536-1.994-3.16-.824-.412-1.85-.62-3.074-.62-1.363 0-2.451.269-3.266.804-.813.535-1.219 1.283-1.219 2.24 0 .881.4 1.539 1.203 1.975.516.289 1.609.629 3.281 1.019l4.336 1.021c1.898.446 3.324 1.042 4.271 1.789C53.264 33.285 54 34.962 54 37.159c0 2.252-.871 4.121-2.617 5.611" />
+                                </svg>
+                                <div class="slider-img">
+                                    <img src="/Images/tc-seat-img.png" alt="" class="h-auto w-100">
+                                </div>
+                            </div>
+                            <div class="slier-text-div">
+                                <p class="slier-text">Graco 4Ever DLX</p>
+                                <p class="slier-text">VS</p>
+                                <p class="slier-text">Britax Boulevard Clicktight ARB</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-holder">
+                            <div class="slier-img-div">
+                                <div class="slider-img">
+                                    <img src="/Images/tc-seat-img.png" alt="" class="h-auto w-100">
+                                </div>
+                                <svg width="14" height="14" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"
+                                    aria-hidden="true" class="iconify iconify--emojione-monotone">
+                                    <path
+                                        d="M52 2H12C6.477 2 2 6.477 2 12v40c0 5.523 4.477 10 10 10h40c5.523 0 10-4.477 10-10V12c0-5.523-4.477-10-10-10M23.23 44.365h-4.877L10 19.72h5.514l5.363 18.71 5.412-18.71h5.363L23.23 44.365m28.153-1.595C49.639 44.257 47.174 45 43.988 45c-3.252 0-5.809-.732-7.672-2.197-1.863-1.467-2.795-3.481-2.795-6.045h4.928c.158 1.125.473 1.967.939 2.524.855 1.016 2.322 1.521 4.398 1.521 1.242 0 2.252-.134 3.029-.401 1.471-.512 2.207-1.465 2.207-2.859 0-.813-.361-1.443-1.082-1.889-.721-.436-1.865-.82-3.43-1.154l-2.674-.584c-2.629-.581-4.434-1.211-5.418-1.891-1.664-1.136-2.496-2.915-2.496-5.334 0-2.207.813-4.04 2.441-5.501 1.629-1.46 4.021-2.19 7.178-2.19 2.635 0 4.883.688 6.742 2.065 1.861 1.376 2.836 3.375 2.928 5.994H48.25c-.092-1.482-.756-2.536-1.994-3.16-.824-.412-1.85-.62-3.074-.62-1.363 0-2.451.269-3.266.804-.813.535-1.219 1.283-1.219 2.24 0 .881.4 1.539 1.203 1.975.516.289 1.609.629 3.281 1.019l4.336 1.021c1.898.446 3.324 1.042 4.271 1.789C53.264 33.285 54 34.962 54 37.159c0 2.252-.871 4.121-2.617 5.611" />
+                                </svg>
+                                <div class="slider-img">
+                                    <img src="/Images/tc-seat-img.png" alt="" class="h-auto w-100">
+                                </div>
+                            </div>
+                            <div class="slier-text-div">
+                                <p class="slier-text">Graco 4Ever DLX</p>
+                                <p class="slier-text">VS</p>
+                                <p class="slier-text">Britax Boulevard Clicktight ARB</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next swipe-right">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                        <g id="Group">
+                        <path id="Vector" d="M13.6501 17.8493L16.9051 14.5243C17.2201 14.2093 17.2201 13.6843 16.9051 13.3693L13.6501 10.1493C13.1251 9.6243 12.2501 10.0093 12.2501 10.7093L12.2501 17.2893C12.2851 17.9893 13.1601 18.3743 13.6501 17.8493Z" fill="#868686"/>
+                        <path id="Vector_2" d="M14 28C21.735 28 28 21.735 28 14C28 6.265 21.735 -5.47704e-07 14 -1.22392e-06C6.265 -1.90013e-06 1.90013e-06 6.265 1.22392e-06 14C5.47704e-07 21.735 6.265 28 14 28ZM14 1.4C20.965 1.4 26.6 7.035 26.6 14C26.6 20.965 20.965 26.6 14 26.6C7.035 26.6 1.4 20.965 1.4 14C1.4 7.035 7.035 1.4 14 1.4Z" fill="#868686"/>
+                        </g>
+                        </svg>
+                </div>
+                <div class="swiper-button-prev swipe-left">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                        <g id="Group">
+                        <path id="Vector" d="M14.3499 10.1507L11.0949 13.4757C10.7799 13.7907 10.7799 14.3157 11.0949 14.6307L14.3499 17.8507C14.8749 18.3757 15.7499 17.9907 15.7499 17.2907V10.7107C15.7149 10.0107 14.8399 9.6257 14.3499 10.1507Z" fill="#868686"/>
+                        <path id="Vector_2" d="M14 0C6.265 0 0 6.265 0 14C0 21.735 6.265 28 14 28C21.735 28 28 21.735 28 14C28 6.265 21.735 0 14 0ZM14 26.6C7.035 26.6 1.4 20.965 1.4 14C1.4 7.035 7.035 1.4 14 1.4C20.965 1.4 26.6 7.035 26.6 14C26.6 20.965 20.965 26.6 14 26.6Z" fill="#868686"/>
+                        </g>
+                        </svg>
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- Trending comparison ends -->
+
+    <!-- Makes starts -->
+    <section class="makes">
+        <h2 class="makes-heading">Makes</h2>
+        <div class="makes-main position-relative d-flex justify-content-center align-items-center">
+            <div class="makes-banner-div">
+                <img src="/Images/Group (5).png" alt="" class="nakes-banner w-100 h-auto mobile-d-none">
+                <img src="/Images/mobile makes banner.png" alt="" class="nakes-banner w-100 h-auto d-md-none">
+            </div>
+            <div
+                class="makes-card-container position-absolute d-flex justify-content-md-center justify-content- align-items-center flex-wrap">
+                <div class="makes-img-card">
+                    <img src="/Images/dummy_80x80_ffffff_cccccc.png" alt="" class="makes-logo-imgs w-100 h-auto">
+                </div>
+                <div class="makes-img-card">
+                    <img src="/Images/dummy_80x80_ffffff_cccccc.png" alt="" class="makes-logo-imgs w-100 h-auto">
+                </div>
+                <div class="makes-img-card">
+                    <img src="/Images/dummy_80x80_ffffff_cccccc.png" alt="" class="makes-logo-imgs w-100 h-auto">
+                </div>
+                <div class="makes-img-card">
+                    <img src="/Images/dummy_80x80_ffffff_cccccc.png" alt="" class="makes-logo-imgs w-100 h-auto">
+                </div>
+                <div class="makes-img-card">
+                    <img src="/Images/dummy_80x80_ffffff_cccccc.png" alt="" class="makes-logo-imgs w-100 h-auto">
+                </div>
+                <div class="makes-img-card">
+                    <img src="/Images/dummy_80x80_ffffff_cccccc.png" alt="" class="makes-logo-imgs w-100 h-auto">
+                </div>
+                <div class="makes-img-card">
+                    <img src="/Images/dummy_80x80_ffffff_cccccc.png" alt="" class="makes-logo-imgs w-100 h-auto">
+                </div>
+                <div class="makes-img-card">
+                    <img src="/Images/dummy_80x80_ffffff_cccccc.png" alt="" class="makes-logo-imgs w-100 h-auto">
+                </div>
+                <div class="makes-img-card">
+                    <img src="/Images/dummy_80x80_ffffff_cccccc.png" alt="" class="makes-logo-imgs w-100 h-auto">
+                </div>
+                <div class="makes-img-card">
+                    <img src="/Images/dummy_80x80_ffffff_cccccc.png" alt="" class="makes-logo-imgs w-100 h-auto">
+                </div>
+                <div class="makes-img-card">
+                    <img src="/Images/dummy_80x80_ffffff_cccccc.png" alt="" class="makes-logo-imgs w-100 h-auto">
+                </div>
+                <div class="makes-img-card">
+                    <img src="/Images/dummy_80x80_ffffff_cccccc.png" alt="" class="makes-logo-imgs w-100 h-auto">
+                </div>
+                <div class="makes-img-card">
+                    <img src="/Images/dummy_80x80_ffffff_cccccc.png" alt="" class="makes-logo-imgs w-100 h-auto">
+                </div>
+                <div class="makes-img-card">
+                    <img src="/Images/dummy_80x80_ffffff_cccccc.png" alt="" class="makes-logo-imgs w-100 h-auto">
+                </div>
+                <div class="makes-img-card">
+                    <img src="/Images/dummy_80x80_ffffff_cccccc.png" alt="" class="makes-logo-imgs w-100 h-auto">
+                </div>
+                <div class="makes-img-card">
+                    <img src="/Images/dummy_80x80_ffffff_cccccc.png" alt="" class="makes-logo-imgs w-100 h-auto">
+                </div>
+                <div class="makes-img-card">
+                    <img src="/Images/dummy_80x80_ffffff_cccccc.png" alt="" class="makes-logo-imgs w-100 h-auto">
+                </div>
+                <div class="makes-img-card">
+                    <img src="/Images/dummy_80x80_ffffff_cccccc.png" alt="" class="makes-logo-imgs w-100 h-auto">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Makes ends -->
+
+    <!-- Blogs starts -->
+    <section class="blogs">
+        <h2 class="blogs-heading">Blogs</h2>
+        <div class="blogs-main d-flex lign-items-start justify-content-center bg-white">
+            <div class="blogs-part bp1">
+                <div class="blog-part1-card">
+                    <div class="blog-part1-img-div">
+                        <img src="/Images/IoT-Technology.png" alt=""
+                            class="blog-part1-img blog-part1-img-desk mobile-d-none w-100 h-auto">
+                        <img src="/Images/blogs mobile img.png" alt=""
+                            class="blog-part1-img blog-part1-img-mob d-md-none w-100 h-auto">
+                    </div>
+                    <div class="blog-part1-info-div">
+                        <p class="blog-part1-info1">Lorem ipsum dolor sit amet consectetur. Amet in egestas viverra
+                            scelerisqu Fringilla lacus ipsum ut nisl sed.</p>
+                        <p class="blog-part1-info2">
+                            <span><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"
+                                    fill="none">
+                                    <g id="01">
+                                        <path id="Vector"
+                                            d="M5.99988 9.68836e-07C4.81319 7.77219e-07 3.65315 0.351894 2.66646 1.01118C1.67976 1.67047 0.910729 2.60754 0.456603 3.7039C0.00247673 4.80025 -0.116343 6.00666 0.115168 7.17054C0.346679 8.33443 0.918123 9.40352 1.75724 10.2426C2.59635 11.0818 3.66545 11.6532 4.82934 11.8847C5.99322 12.1162 7.19962 11.9974 8.29598 11.5433C9.39233 11.0892 10.3294 10.3201 10.9887 9.33342C11.648 8.34673 11.9999 7.18669 11.9999 6C11.9999 4.4087 11.3677 2.88258 10.2425 1.75736C9.1173 0.632142 7.59118 1.22579e-06 5.99988 9.68836e-07ZM5.99988 11.0769C4.99576 11.0769 4.01419 10.7792 3.17929 10.2213C2.3444 9.66345 1.69367 8.87054 1.30941 7.94285C0.925153 7.01517 0.824614 5.99437 1.02051 5.00954C1.2164 4.02471 1.69993 3.12009 2.40995 2.41007C3.11997 1.70005 4.02459 1.21652 5.00942 1.02063C5.99425 0.824735 7.01505 0.925275 7.94273 1.30954C8.87042 1.6938 9.66333 2.34452 10.2212 3.17941C10.779 4.01431 11.0768 4.99588 11.0768 6C11.0768 7.34648 10.5419 8.63782 9.5898 9.58993C8.6377 10.542 7.34636 11.0769 5.99988 11.0769ZM8.17372 7.51846C8.22204 7.55984 8.26128 7.61075 8.28898 7.66801C8.31669 7.72527 8.33225 7.78764 8.33471 7.85121C8.33716 7.91477 8.32645 7.97815 8.30325 8.03738C8.28004 8.09661 8.24485 8.1504 8.19987 8.19538C8.15489 8.24036 8.1011 8.27555 8.04187 8.29876C7.98265 8.32196 7.91926 8.33267 7.8557 8.33021C7.79214 8.32776 7.72977 8.31219 7.67251 8.28449C7.61525 8.25679 7.56433 8.21755 7.52295 8.16923L5.6768 6.32308C5.58984 6.23786 5.54007 6.12174 5.53834 6L5.53834 2.30769C5.53834 2.18529 5.58697 2.06789 5.67352 1.98134C5.76008 1.89478 5.87747 1.84615 5.99988 1.84615C6.12229 1.84615 6.23968 1.89478 6.32624 1.98134C6.41279 2.06789 6.46142 2.18529 6.46142 2.30769L6.46142 5.81077L8.17372 7.51846Z"
+                                            fill="#868686" />
+                                    </g>
+                                </svg>
+                            </span>
+                            Aug 2 2023
+                        </p>
+                    </div>
+                </div>
+                <div class="blog-part1-card">
+                    <div class="blog-part1-img-div">
+                        <img src="/Images/IoT-Technology.png" alt=""
+                            class="blog-part1-img blog-part1-img-desk mobile-d-none w-100 h-auto">
+                        <img src="/Images/blogs mobile img.png" alt=""
+                            class="blog-part1-img blog-part1-img-mob d-md-none w-100 h-auto">
+                    </div>
+                    <div class="blog-part1-info-div">
+                        <p class="blog-part1-info1">Lorem ipsum dolor sit amet consectetur. Amet in egestas viverra
+                            scelerisqu Fringilla lacus ipsum ut nisl sed.</p>
+                        <p class="blog-part1-info2">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"
+                                    fill="none">
+                                    <g id="01">
+                                        <path id="Vector"
+                                            d="M5.99988 9.68836e-07C4.81319 7.77219e-07 3.65315 0.351894 2.66646 1.01118C1.67976 1.67047 0.910729 2.60754 0.456603 3.7039C0.00247673 4.80025 -0.116343 6.00666 0.115168 7.17054C0.346679 8.33443 0.918123 9.40352 1.75724 10.2426C2.59635 11.0818 3.66545 11.6532 4.82934 11.8847C5.99322 12.1162 7.19962 11.9974 8.29598 11.5433C9.39233 11.0892 10.3294 10.3201 10.9887 9.33342C11.648 8.34673 11.9999 7.18669 11.9999 6C11.9999 4.4087 11.3677 2.88258 10.2425 1.75736C9.1173 0.632142 7.59118 1.22579e-06 5.99988 9.68836e-07ZM5.99988 11.0769C4.99576 11.0769 4.01419 10.7792 3.17929 10.2213C2.3444 9.66345 1.69367 8.87054 1.30941 7.94285C0.925153 7.01517 0.824614 5.99437 1.02051 5.00954C1.2164 4.02471 1.69993 3.12009 2.40995 2.41007C3.11997 1.70005 4.02459 1.21652 5.00942 1.02063C5.99425 0.824735 7.01505 0.925275 7.94273 1.30954C8.87042 1.6938 9.66333 2.34452 10.2212 3.17941C10.779 4.01431 11.0768 4.99588 11.0768 6C11.0768 7.34648 10.5419 8.63782 9.5898 9.58993C8.6377 10.542 7.34636 11.0769 5.99988 11.0769ZM8.17372 7.51846C8.22204 7.55984 8.26128 7.61075 8.28898 7.66801C8.31669 7.72527 8.33225 7.78764 8.33471 7.85121C8.33716 7.91477 8.32645 7.97815 8.30325 8.03738C8.28004 8.09661 8.24485 8.1504 8.19987 8.19538C8.15489 8.24036 8.1011 8.27555 8.04187 8.29876C7.98265 8.32196 7.91926 8.33267 7.8557 8.33021C7.79214 8.32776 7.72977 8.31219 7.67251 8.28449C7.61525 8.25679 7.56433 8.21755 7.52295 8.16923L5.6768 6.32308C5.58984 6.23786 5.54007 6.12174 5.53834 6L5.53834 2.30769C5.53834 2.18529 5.58697 2.06789 5.67352 1.98134C5.76008 1.89478 5.87747 1.84615 5.99988 1.84615C6.12229 1.84615 6.23968 1.89478 6.32624 1.98134C6.41279 2.06789 6.46142 2.18529 6.46142 2.30769L6.46142 5.81077L8.17372 7.51846Z"
+                                            fill="#868686" />
+                                    </g>
+                                </svg>
+                            </span>
+                            Aug 2 2023
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="blogs-part bp2">
+                <div class="blog-part2-card">
+                    <div class="blog-part2-img-div">
+                        <img src="/Images/lotus-elise-assembly-line 1.png" alt=""
+                            class="blog-part2-img w-100 blog-part2-img-desk h-auto mobile-d-none">
+                        <img src="/Images/blogs mobile img.png" alt=""
+                            class="blog-part2-img w-100 blog-part2-img-mob h-auto d-md-none">
+                    </div>
+                    <div class="blog-part2-info-div">
+                        <p class="blog-part2-info1">Lorem ipsum dolor sit amet consectetur. Tempor lorem id scelerisque
+                            enim scelerisque morbi.</p>
+                        <p class="blog-part2-info2 mobile-d-none">Lorem ipsum dolor sit amet consectetur. Id consectetur
+                            viverra at
+                            tellus mauris velit viverra convallis quis. In odio blandit turpis diam et nunc.
+                            Pellentesque commodo malesuada blandit nunc. In potenti eget et</p>
+                        <p class="blog-part2-info3">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"
+                                    fill="none">
+                                    <g id="01">
+                                        <path id="Vector"
+                                            d="M5.99988 9.68836e-07C4.81319 7.77219e-07 3.65315 0.351894 2.66646 1.01118C1.67976 1.67047 0.910729 2.60754 0.456603 3.7039C0.00247673 4.80025 -0.116343 6.00666 0.115168 7.17054C0.346679 8.33443 0.918123 9.40352 1.75724 10.2426C2.59635 11.0818 3.66545 11.6532 4.82934 11.8847C5.99322 12.1162 7.19962 11.9974 8.29598 11.5433C9.39233 11.0892 10.3294 10.3201 10.9887 9.33342C11.648 8.34673 11.9999 7.18669 11.9999 6C11.9999 4.4087 11.3677 2.88258 10.2425 1.75736C9.1173 0.632142 7.59118 1.22579e-06 5.99988 9.68836e-07ZM5.99988 11.0769C4.99576 11.0769 4.01419 10.7792 3.17929 10.2213C2.3444 9.66345 1.69367 8.87054 1.30941 7.94285C0.925153 7.01517 0.824614 5.99437 1.02051 5.00954C1.2164 4.02471 1.69993 3.12009 2.40995 2.41007C3.11997 1.70005 4.02459 1.21652 5.00942 1.02063C5.99425 0.824735 7.01505 0.925275 7.94273 1.30954C8.87042 1.6938 9.66333 2.34452 10.2212 3.17941C10.779 4.01431 11.0768 4.99588 11.0768 6C11.0768 7.34648 10.5419 8.63782 9.5898 9.58993C8.6377 10.542 7.34636 11.0769 5.99988 11.0769ZM8.17372 7.51846C8.22204 7.55984 8.26128 7.61075 8.28898 7.66801C8.31669 7.72527 8.33225 7.78764 8.33471 7.85121C8.33716 7.91477 8.32645 7.97815 8.30325 8.03738C8.28004 8.09661 8.24485 8.1504 8.19987 8.19538C8.15489 8.24036 8.1011 8.27555 8.04187 8.29876C7.98265 8.32196 7.91926 8.33267 7.8557 8.33021C7.79214 8.32776 7.72977 8.31219 7.67251 8.28449C7.61525 8.25679 7.56433 8.21755 7.52295 8.16923L5.6768 6.32308C5.58984 6.23786 5.54007 6.12174 5.53834 6L5.53834 2.30769C5.53834 2.18529 5.58697 2.06789 5.67352 1.98134C5.76008 1.89478 5.87747 1.84615 5.99988 1.84615C6.12229 1.84615 6.23968 1.89478 6.32624 1.98134C6.41279 2.06789 6.46142 2.18529 6.46142 2.30769L6.46142 5.81077L8.17372 7.51846Z"
+                                            fill="#868686" />
+                                    </g>
+                                </svg>
+                            </span>
+                            Aug 2 2023
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="blogs-trending-tag2 d-md-none">Trending</div>
+            <div class="blogs-part bp3">
+                <div class="blog-part3-card d-flex">
+                    <div class="blog-part3-info-div">
+                        <p class="blog-part3-info1">Lorem ipsum dolor sit amet consttur. Amet in egestas viverra
+                            scelerisqu Fringilla.</p>
+                        <p class="blog-part3-info2">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"
+                                    fill="none">
+                                    <g id="01">
+                                        <path id="Vector"
+                                            d="M5.99988 9.68836e-07C4.81319 7.77219e-07 3.65315 0.351894 2.66646 1.01118C1.67976 1.67047 0.910729 2.60754 0.456603 3.7039C0.00247673 4.80025 -0.116343 6.00666 0.115168 7.17054C0.346679 8.33443 0.918123 9.40352 1.75724 10.2426C2.59635 11.0818 3.66545 11.6532 4.82934 11.8847C5.99322 12.1162 7.19962 11.9974 8.29598 11.5433C9.39233 11.0892 10.3294 10.3201 10.9887 9.33342C11.648 8.34673 11.9999 7.18669 11.9999 6C11.9999 4.4087 11.3677 2.88258 10.2425 1.75736C9.1173 0.632142 7.59118 1.22579e-06 5.99988 9.68836e-07ZM5.99988 11.0769C4.99576 11.0769 4.01419 10.7792 3.17929 10.2213C2.3444 9.66345 1.69367 8.87054 1.30941 7.94285C0.925153 7.01517 0.824614 5.99437 1.02051 5.00954C1.2164 4.02471 1.69993 3.12009 2.40995 2.41007C3.11997 1.70005 4.02459 1.21652 5.00942 1.02063C5.99425 0.824735 7.01505 0.925275 7.94273 1.30954C8.87042 1.6938 9.66333 2.34452 10.2212 3.17941C10.779 4.01431 11.0768 4.99588 11.0768 6C11.0768 7.34648 10.5419 8.63782 9.5898 9.58993C8.6377 10.542 7.34636 11.0769 5.99988 11.0769ZM8.17372 7.51846C8.22204 7.55984 8.26128 7.61075 8.28898 7.66801C8.31669 7.72527 8.33225 7.78764 8.33471 7.85121C8.33716 7.91477 8.32645 7.97815 8.30325 8.03738C8.28004 8.09661 8.24485 8.1504 8.19987 8.19538C8.15489 8.24036 8.1011 8.27555 8.04187 8.29876C7.98265 8.32196 7.91926 8.33267 7.8557 8.33021C7.79214 8.32776 7.72977 8.31219 7.67251 8.28449C7.61525 8.25679 7.56433 8.21755 7.52295 8.16923L5.6768 6.32308C5.58984 6.23786 5.54007 6.12174 5.53834 6L5.53834 2.30769C5.53834 2.18529 5.58697 2.06789 5.67352 1.98134C5.76008 1.89478 5.87747 1.84615 5.99988 1.84615C6.12229 1.84615 6.23968 1.89478 6.32624 1.98134C6.41279 2.06789 6.46142 2.18529 6.46142 2.30769L6.46142 5.81077L8.17372 7.51846Z"
+                                            fill="#868686" />
+                                    </g>
+                                </svg>
+                            </span>
+                            10d ago
+                        </p>
+                    </div>
+                    <div class="blog-part3-img-div">
+                        <img src="/Images/images (2).png" alt="" class="blog-part3-img">
+                    </div>
+                </div>
+                <div class="blog-part3-card d-flex">
+                    <div class="blog-part3-info-div">
+                        <p class="blog-part3-info1">Lorem ipsum dolor sit amet consttur. Amet in egestas viverra
+                            scelerisqu Fringilla.</p>
+                        <p class="blog-part3-info2">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"
+                                    fill="none">
+                                    <g id="01">
+                                        <path id="Vector"
+                                            d="M5.99988 9.68836e-07C4.81319 7.77219e-07 3.65315 0.351894 2.66646 1.01118C1.67976 1.67047 0.910729 2.60754 0.456603 3.7039C0.00247673 4.80025 -0.116343 6.00666 0.115168 7.17054C0.346679 8.33443 0.918123 9.40352 1.75724 10.2426C2.59635 11.0818 3.66545 11.6532 4.82934 11.8847C5.99322 12.1162 7.19962 11.9974 8.29598 11.5433C9.39233 11.0892 10.3294 10.3201 10.9887 9.33342C11.648 8.34673 11.9999 7.18669 11.9999 6C11.9999 4.4087 11.3677 2.88258 10.2425 1.75736C9.1173 0.632142 7.59118 1.22579e-06 5.99988 9.68836e-07ZM5.99988 11.0769C4.99576 11.0769 4.01419 10.7792 3.17929 10.2213C2.3444 9.66345 1.69367 8.87054 1.30941 7.94285C0.925153 7.01517 0.824614 5.99437 1.02051 5.00954C1.2164 4.02471 1.69993 3.12009 2.40995 2.41007C3.11997 1.70005 4.02459 1.21652 5.00942 1.02063C5.99425 0.824735 7.01505 0.925275 7.94273 1.30954C8.87042 1.6938 9.66333 2.34452 10.2212 3.17941C10.779 4.01431 11.0768 4.99588 11.0768 6C11.0768 7.34648 10.5419 8.63782 9.5898 9.58993C8.6377 10.542 7.34636 11.0769 5.99988 11.0769ZM8.17372 7.51846C8.22204 7.55984 8.26128 7.61075 8.28898 7.66801C8.31669 7.72527 8.33225 7.78764 8.33471 7.85121C8.33716 7.91477 8.32645 7.97815 8.30325 8.03738C8.28004 8.09661 8.24485 8.1504 8.19987 8.19538C8.15489 8.24036 8.1011 8.27555 8.04187 8.29876C7.98265 8.32196 7.91926 8.33267 7.8557 8.33021C7.79214 8.32776 7.72977 8.31219 7.67251 8.28449C7.61525 8.25679 7.56433 8.21755 7.52295 8.16923L5.6768 6.32308C5.58984 6.23786 5.54007 6.12174 5.53834 6L5.53834 2.30769C5.53834 2.18529 5.58697 2.06789 5.67352 1.98134C5.76008 1.89478 5.87747 1.84615 5.99988 1.84615C6.12229 1.84615 6.23968 1.89478 6.32624 1.98134C6.41279 2.06789 6.46142 2.18529 6.46142 2.30769L6.46142 5.81077L8.17372 7.51846Z"
+                                            fill="#868686" />
+                                    </g>
+                                </svg>
+                            </span>
+                            10d ago
+                        </p>
+                    </div>
+                    <div class="blog-part3-img-div">
+                        <img src="/Images/images (2).png" alt="" class="blog-part3-img">
+                    </div>
+                </div>
+                <div class="blog-part3-card d-flex">
+                    <div class="blog-part3-info-div">
+                        <p class="blog-part3-info1">Lorem ipsum dolor sit amet consttur. Amet in egestas viverra
+                            scelerisqu Fringilla.</p>
+                        <p class="blog-part3-info2">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"
+                                    fill="none">
+                                    <g id="01">
+                                        <path id="Vector"
+                                            d="M5.99988 9.68836e-07C4.81319 7.77219e-07 3.65315 0.351894 2.66646 1.01118C1.67976 1.67047 0.910729 2.60754 0.456603 3.7039C0.00247673 4.80025 -0.116343 6.00666 0.115168 7.17054C0.346679 8.33443 0.918123 9.40352 1.75724 10.2426C2.59635 11.0818 3.66545 11.6532 4.82934 11.8847C5.99322 12.1162 7.19962 11.9974 8.29598 11.5433C9.39233 11.0892 10.3294 10.3201 10.9887 9.33342C11.648 8.34673 11.9999 7.18669 11.9999 6C11.9999 4.4087 11.3677 2.88258 10.2425 1.75736C9.1173 0.632142 7.59118 1.22579e-06 5.99988 9.68836e-07ZM5.99988 11.0769C4.99576 11.0769 4.01419 10.7792 3.17929 10.2213C2.3444 9.66345 1.69367 8.87054 1.30941 7.94285C0.925153 7.01517 0.824614 5.99437 1.02051 5.00954C1.2164 4.02471 1.69993 3.12009 2.40995 2.41007C3.11997 1.70005 4.02459 1.21652 5.00942 1.02063C5.99425 0.824735 7.01505 0.925275 7.94273 1.30954C8.87042 1.6938 9.66333 2.34452 10.2212 3.17941C10.779 4.01431 11.0768 4.99588 11.0768 6C11.0768 7.34648 10.5419 8.63782 9.5898 9.58993C8.6377 10.542 7.34636 11.0769 5.99988 11.0769ZM8.17372 7.51846C8.22204 7.55984 8.26128 7.61075 8.28898 7.66801C8.31669 7.72527 8.33225 7.78764 8.33471 7.85121C8.33716 7.91477 8.32645 7.97815 8.30325 8.03738C8.28004 8.09661 8.24485 8.1504 8.19987 8.19538C8.15489 8.24036 8.1011 8.27555 8.04187 8.29876C7.98265 8.32196 7.91926 8.33267 7.8557 8.33021C7.79214 8.32776 7.72977 8.31219 7.67251 8.28449C7.61525 8.25679 7.56433 8.21755 7.52295 8.16923L5.6768 6.32308C5.58984 6.23786 5.54007 6.12174 5.53834 6L5.53834 2.30769C5.53834 2.18529 5.58697 2.06789 5.67352 1.98134C5.76008 1.89478 5.87747 1.84615 5.99988 1.84615C6.12229 1.84615 6.23968 1.89478 6.32624 1.98134C6.41279 2.06789 6.46142 2.18529 6.46142 2.30769L6.46142 5.81077L8.17372 7.51846Z"
+                                            fill="#868686" />
+                                    </g>
+                                </svg>
+                            </span>
+                            10d ago
+                        </p>
+                    </div>
+                    <div class="blog-part3-img-div">
+                        <img src="/Images/images (2).png" alt="" class="blog-part3-img">
+                    </div>
+                </div>
+                <div class="blog-part3-card d-flex">
+                    <div class="blog-part3-info-div">
+                        <p class="blog-part3-info1">Lorem ipsum dolor sit amet consttur. Amet in egestas viverra
+                            scelerisqu Fringilla.</p>
+                        <p class="blog-part3-info2">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"
+                                    fill="none">
+                                    <g id="01">
+                                        <path id="Vector"
+                                            d="M5.99988 9.68836e-07C4.81319 7.77219e-07 3.65315 0.351894 2.66646 1.01118C1.67976 1.67047 0.910729 2.60754 0.456603 3.7039C0.00247673 4.80025 -0.116343 6.00666 0.115168 7.17054C0.346679 8.33443 0.918123 9.40352 1.75724 10.2426C2.59635 11.0818 3.66545 11.6532 4.82934 11.8847C5.99322 12.1162 7.19962 11.9974 8.29598 11.5433C9.39233 11.0892 10.3294 10.3201 10.9887 9.33342C11.648 8.34673 11.9999 7.18669 11.9999 6C11.9999 4.4087 11.3677 2.88258 10.2425 1.75736C9.1173 0.632142 7.59118 1.22579e-06 5.99988 9.68836e-07ZM5.99988 11.0769C4.99576 11.0769 4.01419 10.7792 3.17929 10.2213C2.3444 9.66345 1.69367 8.87054 1.30941 7.94285C0.925153 7.01517 0.824614 5.99437 1.02051 5.00954C1.2164 4.02471 1.69993 3.12009 2.40995 2.41007C3.11997 1.70005 4.02459 1.21652 5.00942 1.02063C5.99425 0.824735 7.01505 0.925275 7.94273 1.30954C8.87042 1.6938 9.66333 2.34452 10.2212 3.17941C10.779 4.01431 11.0768 4.99588 11.0768 6C11.0768 7.34648 10.5419 8.63782 9.5898 9.58993C8.6377 10.542 7.34636 11.0769 5.99988 11.0769ZM8.17372 7.51846C8.22204 7.55984 8.26128 7.61075 8.28898 7.66801C8.31669 7.72527 8.33225 7.78764 8.33471 7.85121C8.33716 7.91477 8.32645 7.97815 8.30325 8.03738C8.28004 8.09661 8.24485 8.1504 8.19987 8.19538C8.15489 8.24036 8.1011 8.27555 8.04187 8.29876C7.98265 8.32196 7.91926 8.33267 7.8557 8.33021C7.79214 8.32776 7.72977 8.31219 7.67251 8.28449C7.61525 8.25679 7.56433 8.21755 7.52295 8.16923L5.6768 6.32308C5.58984 6.23786 5.54007 6.12174 5.53834 6L5.53834 2.30769C5.53834 2.18529 5.58697 2.06789 5.67352 1.98134C5.76008 1.89478 5.87747 1.84615 5.99988 1.84615C6.12229 1.84615 6.23968 1.89478 6.32624 1.98134C6.41279 2.06789 6.46142 2.18529 6.46142 2.30769L6.46142 5.81077L8.17372 7.51846Z"
+                                            fill="#868686" />
+                                    </g>
+                                </svg>
+                            </span>
+                            10d ago
+                        </p>
+                    </div>
+                    <div class="blog-part3-img-div">
+                        <img src="/Images/images (2).png" alt="" class="blog-part3-img">
+                    </div>
+                </div>
+                <div class="blog-part3-card d-flex">
+                    <div class="blog-part3-info-div">
+                        <p class="blog-part3-info1">Lorem ipsum dolor sit amet consttur. Amet in egestas viverra
+                            scelerisqu Fringilla.</p>
+                        <p class="blog-part3-info2">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"
+                                    fill="none">
+                                    <g id="01">
+                                        <path id="Vector"
+                                            d="M5.99988 9.68836e-07C4.81319 7.77219e-07 3.65315 0.351894 2.66646 1.01118C1.67976 1.67047 0.910729 2.60754 0.456603 3.7039C0.00247673 4.80025 -0.116343 6.00666 0.115168 7.17054C0.346679 8.33443 0.918123 9.40352 1.75724 10.2426C2.59635 11.0818 3.66545 11.6532 4.82934 11.8847C5.99322 12.1162 7.19962 11.9974 8.29598 11.5433C9.39233 11.0892 10.3294 10.3201 10.9887 9.33342C11.648 8.34673 11.9999 7.18669 11.9999 6C11.9999 4.4087 11.3677 2.88258 10.2425 1.75736C9.1173 0.632142 7.59118 1.22579e-06 5.99988 9.68836e-07ZM5.99988 11.0769C4.99576 11.0769 4.01419 10.7792 3.17929 10.2213C2.3444 9.66345 1.69367 8.87054 1.30941 7.94285C0.925153 7.01517 0.824614 5.99437 1.02051 5.00954C1.2164 4.02471 1.69993 3.12009 2.40995 2.41007C3.11997 1.70005 4.02459 1.21652 5.00942 1.02063C5.99425 0.824735 7.01505 0.925275 7.94273 1.30954C8.87042 1.6938 9.66333 2.34452 10.2212 3.17941C10.779 4.01431 11.0768 4.99588 11.0768 6C11.0768 7.34648 10.5419 8.63782 9.5898 9.58993C8.6377 10.542 7.34636 11.0769 5.99988 11.0769ZM8.17372 7.51846C8.22204 7.55984 8.26128 7.61075 8.28898 7.66801C8.31669 7.72527 8.33225 7.78764 8.33471 7.85121C8.33716 7.91477 8.32645 7.97815 8.30325 8.03738C8.28004 8.09661 8.24485 8.1504 8.19987 8.19538C8.15489 8.24036 8.1011 8.27555 8.04187 8.29876C7.98265 8.32196 7.91926 8.33267 7.8557 8.33021C7.79214 8.32776 7.72977 8.31219 7.67251 8.28449C7.61525 8.25679 7.56433 8.21755 7.52295 8.16923L5.6768 6.32308C5.58984 6.23786 5.54007 6.12174 5.53834 6L5.53834 2.30769C5.53834 2.18529 5.58697 2.06789 5.67352 1.98134C5.76008 1.89478 5.87747 1.84615 5.99988 1.84615C6.12229 1.84615 6.23968 1.89478 6.32624 1.98134C6.41279 2.06789 6.46142 2.18529 6.46142 2.30769L6.46142 5.81077L8.17372 7.51846Z"
+                                            fill="#868686" />
+                                    </g>
+                                </svg>
+                            </span>
+                            10d ago
+                        </p>
+                    </div>
+                    <div class="blog-part3-img-div">
+                        <img src="/Images/images (2).png" alt="" class="blog-part3-img">
+                    </div>
+                </div>
+            </div>
+            <div class="blogs-latest-tag">Latest</div>
+            <div class="blogs-trending-tag mobile-d-none">Trending</div>
+        </div>
+        <div class="blog-button-div">
+            <button class="blogs-view-all">View All Blogs</button>
+        </div>
+    </section>
+    <!-- Blogs ends -->
+
+    <!--Footer starts  -->
+    <section class="footer">
+        <div class="footer-inner d-flex justify-content-center">
+            <div class="menu">
+                <p class="menu-heading">Let you help you</p>
+                <p class="menu-point">FAQs</p>
+                <p class="menu-point">Help</p>
+                <p class="menu-point">Terms & Conditions</p>
+                <p class="menu-point">Privacy Policy</p>
+            </div>
+            <div class="menu">
+                <p class="menu-heading">Helpful Links</p>
+                <p class="menu-point">Products</p>
+                <p class="menu-point">Category</p>
+                <p class="menu-point">Blogs</p>
+            </div>
+            <div class="menu">
+                <p class="menu-heading">Office</p>
+                <p class="menu-point">811, 8th Floor, Merlin Infinite</p>
+                <p class="menu-point">DN-51, Sector 5</p>
+                <p class="menu-point">Salt Lake City</p>
+                <p class="menu-point">Jaipur 302001</p>
+                <p class="menu-point">Rajasthan, India</p>
+            </div>
+            <div class="menu">
+                <p class="menu-heading">Connect with us</p>
+                <p class="menu-point"><span class="footer-icon"><svg xmlns="http://www.w3.org/2000/svg" width="22"
+                            height="19" viewBox="0 0 22 19" fill="none">
+                            <g id="Group">
+                                <path id="Vector" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M1 3.85714V15.2857C1 16.0435 1.30102 16.7702 1.83684 17.306C2.37266 17.8418 3.09938 18.1429 3.85714 18.1429H18.1429C18.9006 18.1429 19.6273 17.8418 20.1632 17.306C20.699 16.7702 21 16.0435 21 15.2857V3.85714C21 3.09938 20.699 2.37266 20.1632 1.83684C19.6273 1.30102 18.9006 1 18.1429 1H3.85714C3.09938 1 2.37266 1.30102 1.83684 1.83684C1.30102 2.37266 1 3.09938 1 3.85714Z"
+                                    stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_2" d="M3.85714 5.28613L11 9.57185L18.1429 5.28613" stroke="white"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                        </svg></span>logoipsum@mail.com</p>
+                <p class="menu-point"><span class="footer-icon"><svg xmlns="http://www.w3.org/2000/svg" width="19"
+                            height="25" viewBox="0 0 19 25" fill="none">
+                            <path id="Vector"
+                                d="M4.90178 0.128184L3.81701 0.454977C2.85113 0.74626 1.98855 1.3074 1.3308 2.07236C0.673061 2.83731 0.247527 3.77424 0.104287 4.77288C-0.345053 7.90161 0.659531 11.5599 3.08173 15.7552C5.49788 19.94 8.15761 22.636 11.0851 23.8161C12.0257 24.1952 13.0555 24.2962 14.0518 24.1072C15.0482 23.9181 15.9693 23.4468 16.7057 22.7495L17.5257 21.9719C18.0581 21.4679 18.3895 20.7878 18.4583 20.0579C18.527 19.328 18.3284 18.5979 17.8994 18.0034L15.8478 15.1591C15.5705 14.7751 15.1799 14.4876 14.7309 14.3367C14.2818 14.1859 13.7969 14.1793 13.3439 14.3179L10.2409 15.2666L10.1607 15.2817C9.8188 15.3316 9.02905 14.5918 8.04565 12.8882C7.01686 11.106 6.80505 10.0636 7.08796 9.79429L8.66595 8.32221C9.243 7.7843 9.63718 7.07925 9.7932 6.30595C9.94921 5.53266 9.85923 4.72992 9.53588 4.01036L8.53432 1.78484C8.23315 1.11513 7.69873 0.577794 7.03067 0.272991C6.3626 -0.0318127 5.60499 -0.0832796 4.90178 0.128184ZM7.15605 2.40514L8.15458 4.63066C8.34904 5.0622 8.40342 5.54381 8.31007 6.00785C8.21673 6.47188 7.98034 6.895 7.63413 7.21777L6.05161 8.69136C5.03946 9.65056 5.37533 11.2875 6.73696 13.6447C8.0169 15.8626 9.18488 16.958 10.4406 16.7674L10.6282 16.728L13.7872 15.7643C13.9382 15.7179 14.0999 15.72 14.2497 15.7702C14.3995 15.8204 14.5298 15.9162 14.6223 16.0442L16.6739 18.8885C16.8887 19.1857 16.9883 19.5509 16.954 19.916C16.9198 20.2811 16.7541 20.6214 16.4878 20.8735L15.6663 21.6511C15.1403 22.1489 14.4825 22.4852 13.771 22.6201C13.0594 22.755 12.3242 22.6828 11.6525 22.4121C9.08352 21.3773 6.65527 18.9157 4.39344 14.9988C2.12556 11.0727 1.20721 7.73368 1.60209 4.98771C1.7043 4.27426 2.00824 3.60487 2.4781 3.05834C2.94797 2.51182 3.5642 2.11092 4.25425 1.90285L5.33902 1.57606C5.69071 1.47038 6.06884 1.49622 6.40288 1.64877C6.73692 1.80131 7.00408 2.07015 7.15453 2.40514H7.15605Z"
+                                fill="white" />
+                        </svg></span>(+91)9587849285</p>
+                <p class="menu-point">
+                    <span class="footer-icon"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="20"
+                            viewBox="0 0 12 20" fill="none">
+                            <path id="Vector" fill-rule="evenodd" clip-rule="evenodd"
+                                d="M4.34667 1.57744C5.35635 0.567586 6.72582 0.000168973 8.15385 0H10.9231C11.1271 0 11.3227 0.0810436 11.467 0.225302C11.6113 0.369561 11.6923 0.565218 11.6923 0.769231V4.46154C11.6923 4.66555 11.6113 4.86121 11.467 5.00547C11.3227 5.14973 11.1271 5.23077 10.9231 5.23077H8.15385C8.13364 5.23077 8.11364 5.23475 8.09497 5.24248C8.07631 5.25021 8.05935 5.26154 8.04506 5.27583C8.03077 5.29012 8.01944 5.30708 8.01171 5.32574C8.00398 5.34441 8 5.36441 8 5.38462V7.38462H10.9231C11.04 7.38455 11.1554 7.41115 11.2606 7.46239C11.3657 7.51363 11.4577 7.58817 11.5297 7.68033C11.6017 7.77249 11.6517 7.87985 11.676 7.99424C11.7003 8.10864 11.6981 8.22707 11.6697 8.34051L10.7467 12.0328C10.705 12.1993 10.6089 12.3471 10.4736 12.4526C10.3383 12.5582 10.1716 12.6155 10 12.6154H8V19.2308C8 19.4348 7.91896 19.6304 7.7747 19.7747C7.63044 19.919 7.43478 20 7.23077 20H3.53846C3.33445 20 3.13879 19.919 2.99453 19.7747C2.85027 19.6304 2.76923 19.4348 2.76923 19.2308V12.6154H0.769231C0.565218 12.6154 0.369561 12.5343 0.225302 12.3901C0.0810436 12.2458 0 12.0502 0 11.8462V8.15385C0 8.05283 0.0198967 7.9528 0.0585541 7.85948C0.0972116 7.76615 0.153873 7.68135 0.225302 7.60992C0.296732 7.53849 0.381532 7.48183 0.474859 7.44317C0.568186 7.40451 0.668214 7.38462 0.769231 7.38462H2.76923V5.38462C2.7694 3.95659 3.33682 2.58712 4.34667 1.57744ZM8.15385 1.53846C7.13378 1.53846 6.1555 1.94368 5.4342 2.66497C4.71291 3.38627 4.30769 4.36455 4.30769 5.38462V8.15385C4.30769 8.35786 4.22665 8.55352 4.08239 8.69777C3.93813 8.84203 3.74247 8.92308 3.53846 8.92308H1.53846V11.0769H3.53846C3.74247 11.0769 3.93813 11.158 4.08239 11.3022C4.22665 11.4465 4.30769 11.6421 4.30769 11.8462V18.4615H6.46154V11.8462C6.46154 11.6421 6.54258 11.4465 6.68684 11.3022C6.8311 11.158 7.02676 11.0769 7.23077 11.0769H9.39897L9.93744 8.92308H7.23077C7.02676 8.92308 6.8311 8.84203 6.68684 8.69777C6.54258 8.55352 6.46154 8.35786 6.46154 8.15385V5.38462C6.46154 4.93579 6.63983 4.50534 6.9572 4.18797C7.27457 3.8706 7.70502 3.69231 8.15385 3.69231H10.1538V1.53846H8.15385Z"
+                                fill="white" />
+                        </svg></span>
+                    <span class="footer-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                            viewBox="0 0 20 20" fill="none">
+                            <path id="Vector"
+                                d="M10 5.4902C9.10805 5.4902 8.23612 5.75469 7.49449 6.25024C6.75285 6.74578 6.17482 7.45011 5.83348 8.27417C5.49215 9.09823 5.40284 10.005 5.57685 10.8798C5.75086 11.7546 6.18038 12.5582 6.81109 13.1889C7.44179 13.8196 8.24537 14.2491 9.12018 14.4231C9.995 14.5972 10.9018 14.5079 11.7258 14.1665C12.5499 13.8252 13.2542 13.2471 13.7498 12.5055C14.2453 11.7639 14.5098 10.892 14.5098 10C14.5082 8.8044 14.0326 7.65822 13.1872 6.81281C12.3418 5.96739 11.1956 5.49175 10 5.4902ZM10 13.3333C9.34073 13.3333 8.69626 13.1378 8.1481 12.7716C7.59994 12.4053 7.17269 11.8847 6.9204 11.2756C6.66811 10.6665 6.6021 9.9963 6.73072 9.3497C6.85933 8.7031 7.1768 8.10915 7.64298 7.64298C8.10915 7.1768 8.7031 6.85933 9.3497 6.73072C9.9963 6.6021 10.6665 6.66811 11.2756 6.9204C11.8847 7.17269 12.4053 7.59994 12.7716 8.1481C13.1378 8.69626 13.3333 9.34073 13.3333 10C13.3333 10.8841 12.9821 11.7319 12.357 12.357C11.7319 12.9821 10.8841 13.3333 10 13.3333ZM14.7059 0H5.29412C3.89051 0.00155697 2.54483 0.559829 1.55233 1.55233C0.559829 2.54483 0.00155697 3.89051 0 5.29412V14.7059C0.00155697 16.1095 0.559829 17.4552 1.55233 18.4477C2.54483 19.4402 3.89051 19.9984 5.29412 20H14.7059C16.1095 19.9984 17.4552 19.4402 18.4477 18.4477C19.4402 17.4552 19.9984 16.1095 20 14.7059V5.29412C19.9984 3.89051 19.4402 2.54483 18.4477 1.55233C17.4552 0.559829 16.1095 0.00155697 14.7059 0ZM18.8235 14.7059C18.8235 15.798 18.3897 16.8453 17.6175 17.6175C16.8453 18.3897 15.798 18.8235 14.7059 18.8235H5.29412C4.20205 18.8235 3.15471 18.3897 2.3825 17.6175C1.61029 16.8453 1.17647 15.798 1.17647 14.7059V5.29412C1.17647 4.20205 1.61029 3.15471 2.3825 2.3825C3.15471 1.61029 4.20205 1.17647 5.29412 1.17647H14.7059C15.798 1.17647 16.8453 1.61029 17.6175 2.3825C18.3897 3.15471 18.8235 4.20205 18.8235 5.29412V14.7059ZM16.0784 4.90196C16.0784 5.09586 16.0209 5.28541 15.9132 5.44664C15.8055 5.60786 15.6524 5.73352 15.4732 5.80772C15.2941 5.88193 15.097 5.90134 14.9068 5.86352C14.7166 5.82569 14.5419 5.73231 14.4048 5.5952C14.2677 5.45809 14.1743 5.2834 14.1365 5.09323C14.0987 4.90305 14.1181 4.70592 14.1923 4.52678C14.2665 4.34764 14.3921 4.19452 14.5534 4.08679C14.7146 3.97907 14.9041 3.92157 15.098 3.92157C15.3581 3.92157 15.6074 4.02486 15.7913 4.20872C15.9751 4.39258 16.0784 4.64194 16.0784 4.90196Z"
+                                fill="white" />
+                        </svg></span>
+                    <span class="footer-icon"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="20"
+                            viewBox="0 0 22 20" fill="none">
+                            <path id="Vector"
+                                d="M7 0H0L8.26 11.014L0.45 20H3.1L9.488 12.651L15 20H22L13.392 8.522L20.8 0H18.15L12.164 6.886L7 0ZM16 18L4 2H6L18 18H16Z"
+                                fill="white" />
+                        </svg></span>
+                </p>
+            </div>
+        </div>
+        <div class="footer-copyright-div">
+            <p class="copyright"><span class="footer-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                        height="16" viewBox="0 0 16 16" fill="none">
+                        <path id="Vector"
+                            d="M7.904 5.712C8.928 5.76 9.192 6.632 9.208 7.04H10.64C10.576 5.456 9.448 4.488 7.88 4.488C6.112 4.488 4.8 5.6 4.8 8.112C4.8 9.664 5.544 11.504 7.872 11.504C9.648 11.504 10.6 10.184 10.624 9.144H9.192C9.168 9.616 8.832 10.248 7.888 10.296C6.84 10.264 6.4 9.448 6.4 8.112C6.4 5.8 7.424 5.728 7.904 5.712ZM8 0C3.584 0 0 3.584 0 8C0 12.416 3.584 16 8 16C12.416 16 16 12.416 16 8C16 3.584 12.416 0 8 0ZM8 14.4C4.472 14.4 1.6 11.528 1.6 8C1.6 4.472 4.472 1.6 8 1.6C11.528 1.6 14.4 4.472 14.4 8C14.4 11.528 11.528 14.4 8 14.4Z"
+                            fill="#868686" />
+                    </svg></span>All copyrights reserved by logoipsum</p>
+        </div>
+    </section>
+    <!--Footer ends  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper('.swiper', {
+            slidesPerView: 1.6,
+            centeredSlides: true,
+            loop: true,
+            spaceBetween: 60,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {
+        768: {
+          slidesPerView: 2.2,
+          spaceBetween: 20,
+          centeredSlides: true,
+        },
+        1000: {
+            slidesPerView: 2.6,
+        },  
+        1350: {
+            slidesPerView: 3,
+        }
+    }
+        });
+    </script>
+
+</body>
+
+</html>

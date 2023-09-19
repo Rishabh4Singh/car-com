@@ -1,0 +1,186 @@
+.bgImg {
+    filter: brightness(70%);
+}
+
+body {
+    background-color: #f4f4f4 !important;
+}
+
+.maxWidth {
+    width: 85%;
+    max-width: 1600px;
+    margin: auto;
+}
+
+span.countNum {
+    background: #DDDDDD;
+    padding: 3px;
+    height: fit-content;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+.blogCard p {
+    font-size: 14px;
+    color: #252525;
+    line-height: 120%;
+}
+
+.blogCard span {
+    font-size: 12px;
+    color: #868686;
+}
+
+.blogCard img {
+    box-shadow: 0px 0px 4px 0px #0000001A;
+}
+
+.paginations {
+    align-items: center;
+    justify-content: space-evenly;
+    background: #fff;
+    width: 100%;
+    max-width: 450px;
+    margin-left: auto;
+    border-radius: 102px;
+}
+
+.paginations span {
+    font-size: 14px;
+    width: 23px;
+    height: 23px;
+    text-align: center;
+}
+
+.paginations span.active {
+    background: red;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.trending {
+    color: #868686;
+}
+
+.mob {
+    display: none;
+}
+
+@media screen and (max-width:750px) {
+    .maxWidth {
+        width: 95% !important;
+    }
+
+    .paginations {
+        max-width: 190px !important;
+    }
+
+    .mob {
+        display: block !important;
+    }
+
+    .desk {
+        display: none;
+    }
+}
+
+.breadcrumbs {
+    gap: 10px;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.breadcrumbs span {
+    font-size: 14px;
+    line-height: 100%;
+}
+
+.blogDetail {
+    flex-direction: column;
+    width: 60%;
+}
+
+.blogDetail b,
+.blogDetail p,
+.blogDetail span {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.blogDetail span {
+    margin: 1rem 0;
+}
+
+.blagDetails {
+    margin: 1rem 0;
+    display: flex;
+    gap: 1rem
+}
+
+.detailblogs {
+    width: 40%;
+}
+
+.blogDetailCard {
+    display: flex;
+}
+
+.blogDetailCard img {
+    width: 40%;
+    max-height: 150px;
+    max-width: 135px;
+}
+
+.blogDetailCard div {
+    width: 60%;
+}
+
+.blogDetailCard p,
+.blogDetailCard span {
+    font-size: 14px;
+}
+
+@media screen and (max-width:750px) {
+    .maxWidth {
+        width: 95% !important;
+    }
+
+    .paginations {
+        max-width: 190px !important;
+    }
+
+    .mob {
+        display: block !important;
+    }
+
+    .desk {
+        display: none;
+    }
+
+    .blogDetailCard img {
+        width: 100% !important;
+        height: auto !important;
+        max-width: 100% !important;
+        max-height: 100% !important;
+    }
+
+    .blogDetailCard div {
+        width: 100% !important;
+    }
+
+    .blagDetails {
+        flex-direction: column;
+    }
+
+    .blogDetail {
+        width: 100% !important;
+    }
+
+    .detailblogs {
+        width: 100% !important;
+    }
+
+    .blogDetailCard {
+        flex-direction: column;
+    }
+}

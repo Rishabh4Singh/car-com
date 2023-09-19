@@ -1,0 +1,344 @@
+.breadcrum {
+  padding: 10px 91px;
+  margin-bottom: 20px;
+  background: #efefef;
+}
+.breadcrum p {
+  color: #252525;
+  font-family: Nunito;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+}
+.breadcrum .prod {
+  color: #868686;
+}
+.page-heading {
+  color: #252525;
+  font-family: Nunito;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 91px;
+  margin-bottom: 20px;
+}
+.collection-main {
+  padding: 0 91px;
+  display: flex;
+  gap: 25px;
+}
+.filter-input {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #868686;
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.filter-name {
+  margin-bottom: 0;
+  color: #868686;
+  font-family: Nunito;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.filter-text {
+  color: #252525;
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.filter-reset {
+  color: #a4a4a4;
+  font-family: Nunito;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.filter-inner {
+  margin-bottom: 20px;
+}
+.filter-inf {
+  color: #ee0007;
+  font-family: Nunito;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 55px;
+}
+.filter-div {
+  padding: 15px;
+  height: 80vh;
+  border-radius: 10px;
+  width: 24%;
+}
+.filter-input-div {
+  width: 100%;
+}
+.coll-card-div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+.card-bottom-text {
+  color: #fff;
+  font-family: Nunito;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 0;
+  padding: 5px 8px;
+}
+.card-bottom-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.coll-card-div .ta-grid-card {
+  border-radius: 10px;
+  position: relative;
+}
+.collection-listing-value {
+  color: #868686;
+  font-family: Nunito;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: end;
+}
+.colection-card-top {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.mobile-filter-div {
+  display: none;
+}
+.pagination-div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: white;
+  border-radius: 40px;
+  width: fit-content;
+  margin-left: auto;
+  padding: 10px 24px;
+  margin-top: 15px;
+  margin-bottom: 135px;
+}
+.pagination-ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 16px;
+  margin: 0;
+}
+.pagination-ul li {
+  margin: 0;
+}
+.go-pagination {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.empty-div {
+  width: 25px;
+  height: 20px;
+  border: 1px solid #868686;
+  border-radius: 5px;
+}
+.go-text {
+  margin: 0;
+  color: #252525 !important;
+}
+.go-to-pagi {
+  margin: 0;
+}
+.pagination-ul li,
+.go-text,
+.go-to-pagi {
+  color: #868686;
+  font-family: Nunito;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.active-li-pagi {
+  background: red;
+  color: white;
+  width: 25px;
+  text-align: center;
+  border-radius: 5px;
+}
+.faq-heading {
+    margin-bottom: 50px;
+}
+.accordion-button {
+    background: #232323 !important;
+    color: #fff !important;
+font-family: Nunito;
+font-size: 14px !important;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.accordion-button:focus {
+    border-color: none !important;
+    box-shadow: none !important;
+}
+.accordion-item {
+    margin-bottom: 15px;
+}
+.accordion-item:first-of-type, .accordion-item:first-of-type .accordion-button {
+    border-top-right-radius: 0% !important;
+    border-top-left-radius: 0% !important;
+}
+.accordion-item:last-of-type .accordion-button.collapsed {
+    border-bottom-left-radius: 0% !important;
+    border-bottom-right-radius: 0% !important;
+}
+.accordion-plus {
+    margin: 0;
+    margin-left: auto;
+    position: absolute;
+    top: 8px;
+    right: 25px;
+    font-size: 25px;
+}
+.accordion-button {
+    position: relative !important;
+}
+.accordion-button::after {
+    display: none;
+}
+.faq-main {
+    display: flex;
+    gap: 25px;
+    padding: 0 91px;
+    margin-bottom: 90px;
+}
+.faq-questions-div {
+    width: 100%;
+    background: white;
+    height: fit-content;
+    padding: 20px;
+    padding-bottom: 0;
+    border-radius: 10px;
+}
+.faq-questions-div h3 {
+    color: #000;
+font-family: Nunito;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-bottom: 20px;
+}
+.faq-img-div {
+    width: 45%;
+}
+.faq-img-div img {
+    width: 100%;
+    height: auto;
+}
+.accordian-question {
+    margin-bottom: 0;
+}
+.collection-page-card-wrapper {
+    width: 76%;
+}
+.filter-div {
+  position: sticky;
+  top: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .collection-page-card-wrapper {
+        width: 100%;
+    }
+    .card-bottom-text {
+        font-size: 8px;
+    }
+  .go-pagination {
+    display: none;
+  }
+  .collection-main {
+    flex-direction: column;
+    padding: 0 10px;
+  }
+  .mobile-filter-div {
+    background: white;
+    padding: 12px 10px;
+    display: block;
+  }
+  .mobile-filter-div p {
+    margin: 0;
+  }
+  .coll-card-div {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .coll-card-div .ta-grid-card-whole {
+    width: 100%;
+  }
+  .page-heading,
+  .breadcrum {
+    padding: 0 10px;
+  }
+  .breadcrum p {
+    font-size: 12px;
+  }
+  .breadcrum {
+    padding: 10px;
+    margin-bottom: 0;
+  }
+  .page-heading {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .faq-main {
+    padding: 0 10px;
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+  .faq-img-div {
+    width: 100%;
+    height: auto;
+  }
+  .pagination-div {
+    margin-bottom: 20px;
+  }
+  .faq-heading {
+    margin-left: 17px;
+    margin-bottom: 35px;
+  }
+  .faq-questions-div {
+    padding: 15px 10px;
+  }
+  .faq-questions-div h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .accordian-question {
+    width: 90%;
+  }
+  .accordion-plus {
+    top: 30%;
+  }
+}
